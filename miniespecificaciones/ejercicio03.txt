@@ -6,7 +6,7 @@
 6.      variable2 <-- 20
 7.      obtenerSuma(variable, variable2)
 8.      obtenerSuma(variable, 100)
-9.      obtenerSuma("variable", 100) // ojo, error...
+9.      obtenerSuma("variable", 100) // ojo, error... Se presenta un error ya que el procedimiento obtenerSuma recibe valores enteros y en la línea 9 el primer valor es cadena por lo que ocurriría un error, no corresponde al valor que debe recibir que en este caso es entero.
 10.  fin funcion principal
 11.  // se define un método o función
 12.  funcion obtenerSuma(a, i; b, i)
@@ -20,4 +20,5 @@
 // 30
 // 110
 //
-Ambas son procedimientos, no hay funciones, la característica de los funciones es que siempre devuelven un valor usan la palabra return, mientras que los procedimientos no devuelven valores y solo los presentan
+Ambas son procedimientos, no hay funciones, la característica de los funciones es que siempre devuelven un valor usan la palabra return, 
+mientras que los procedimientos no devuelven valores y solo los presentan.
