@@ -20,3 +20,4 @@
 // 30
 // 110
 //
+Ambas son procedimientos, no hay funciones, la característica de los funciones es que siempre devuelven un valor usan la palabra return, mientras que los procedimientos no devuelven valores y solo los presentan
